@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "outDir": "./dist/",
+        "lib": [
+            "es2017",
+            "es7",
+            "es6"
+        ],
+        "noImplicitAny": true,
+        "strict": true,
+        "module": "commonjs",
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "target": "es6",
+        "declarationMap": true,
+        "inlineSourceMap": true,
+        "inlineSources": true
+    },
+    "include": [
+        "./src/"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

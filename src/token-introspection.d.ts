@@ -10,8 +10,6 @@ type IntrospectionSettings = {
     proxy?: string
 } & ({ client_id: string, client_secret: string } | { access_token: string }) & ({ jwks: { keys: { kty: string, n: string, e: string }[] } } | { jwks_uri: string });
 
-
-
 type IntrospectionValidation = (token: string) => Promise<{ active: boolean } & unknown>;
 
 declare module "token-introspection" {
@@ -21,5 +19,5 @@ declare module "token-introspection" {
     class TokenExpiredError extends TokenNotActiveError { }
     class NotBeforeError extends TokenNotActiveError { }
 
-    export default function (settings: IntrospectionSettings): IntrospectionValidation;
+    export default function (settings: unknown): IntrospectionValidation;
 }

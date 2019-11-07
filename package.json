@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/ncthbrt/koa-oauth2-introspection-middleware.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ncthbrt",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ncthbrt/koa-oauth2-introspection-middleware/issues"
   },

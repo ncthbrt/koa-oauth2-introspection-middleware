@@ -87,7 +87,7 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-src/
+
 *.test.d.ts
 .travis.yml
 jest.config.js

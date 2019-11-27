@@ -1,8 +1,8 @@
 {
   "name": "@ncthbrt/koa-oauth2-introspection-middleware",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "watch": "tsc --watch",
     "build": "tsc",

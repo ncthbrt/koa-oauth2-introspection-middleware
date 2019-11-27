@@ -35,6 +35,7 @@ export function createTokenIntrospectionMiddleware<DecodedToken>(settings: Intro
                 if (result.active) {
                     const decoded = decoder(result);
                     ctx.state.user = decoded;
+                    ctx.state.bearerToken = token;
                 } else {
                     ctx.throw(401);
                 }
